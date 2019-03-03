@@ -1,0 +1,5 @@
+body {
+    background-image: url("./burgerbackground.jpg");
+    background-attachment: fixed;
+    background-size: 100%;
+}

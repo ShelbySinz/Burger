@@ -1,0 +1,29 @@
+{
+  "name": "Burger",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShelbySinz/Burger.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ShelbySinz/Burger/issues"
+  },
+  "homepage": "https://github.com/ShelbySinz/Burger#readme",
+  "dependencies": {
+    "dotenv": "^6.2.0",
+    "express": "^4.16.4",
+    "express-handlebars": "^3.0.2",
+    "my": "^0.3.3",
+    "mysql": "^2.16.0",
+    "sql": "^0.78.0"
+  }
+}
