@@ -2,10 +2,12 @@
 	   <div class="card">
   <div class="card-body">
 	{{BurgerName}}
-
+{{#unless devoured}}
 	<button class="change btn btn-sm btn-primary"  data-id="{{id}}" data-eaten="{{newDevoured}}">
-		{{#if devoured}}Yummy!{{else}}Eat It!{{/if}}
+		Eat it{{/unless}}
 	</button>
+	{{#if devoured}}
 	<button class= "delete btn btn-sm btn-primary delete-burger" data-id= "{{this.id}}">Delete</button>
-  </div>
+  {{/if}}
+	</div>
 	   </div>
